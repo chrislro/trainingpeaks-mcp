@@ -1,5 +1,6 @@
-# TrainingPeaks MCP Server
+# README — TrainingPeaks MCP
 
+<<<<<<< Updated upstream
 <a href="https://glama.ai/mcp/servers/@JamsusMaximus/TrainingPeaks-MCP">
   <img width="380" height="200" src="https://glama.ai/mcp/servers/@JamsusMaximus/TrainingPeaks-MCP/badge" alt="TrainingPeaks MCP server" />
 </a>
@@ -138,17 +139,21 @@ Claude will handle the installation and guide you through authentication step-by
 ### Option B: Manual Setup
 
 #### Step 1: Install
+=======
+Model Context Protocol server for TrainingPeaks integration.
+>>>>>>> Stashed changes
 
+## Quick Start
 ```bash
-git clone https://github.com/JamsusMaximus/trainingpeaks-mcp.git
-cd trainingpeaks-mcp
-python3 -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
+cd ~/Dev/TP/trainingpeaks-mcp
 pip install -e .
+tp-mcp
 ```
 
-#### Step 2: Authenticate
+## What It Does
+Exposes TrainingPeaks data as MCP tools to AI assistants.
 
+<<<<<<< Updated upstream
 **Option A: Auto-extract from browser (easiest)**
 
 If you're logged into TrainingPeaks in your browser:
@@ -371,3 +376,11 @@ ruff check src/
 ## Licence
 
 MIT
+=======
+## Documentation
+- `ARCHITECTURE.md` — System design
+- `DEVELOPMENT.md` — Local setup
+- `DEPLOYMENT.md` — Deployment notes
+- `12FACTOR.md` — 12-factor review
+- `NEXT_STEPS.md` — Roadmap
+>>>>>>> Stashed changes
